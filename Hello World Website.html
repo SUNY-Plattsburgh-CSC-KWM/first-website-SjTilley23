@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Hello World Website</title>
+    <script>
+        function MyFunction() {
+            // >>> put a prompt here, ask the user for a new name <<<
+                  let name = prompt("Enter your name:", "Enter name here")
+            // Use document.getElementById("your id").textContent = .... to change the level 1 header to say something new
+                  document.getElementById("ID").textContent = "Hello, " + name
+        }
+    </script>
+</head>
+<body>
+    <h1 id="ID">Hello, World!</h1>
+    <button onclick="MyFunction()">Change Header</button>
+
+
+
+</body></html>
